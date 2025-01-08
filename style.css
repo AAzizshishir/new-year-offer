@@ -1,0 +1,31 @@
+/* Primary Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Secondery Font */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+    /* Font Family */
+    --primaryFont: "Inter", serif;
+    --seconderyFont: "Merriweather", serif;
+
+    /* Colors */
+    --whiteColor: #FFFFFF;
+    --redColor: #ff0000;
+    --blackColor: #070211;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* HEADER AREA STYLE */
+.header{
+
+}
