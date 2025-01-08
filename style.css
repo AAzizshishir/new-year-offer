@@ -63,6 +63,7 @@ body {
   font-weight: 900;
   line-height: 72px;
   letter-spacing: 0%;
+  text-align: center;
 }
 /* SHARED */
 .subtitle {
@@ -374,31 +375,30 @@ main section {
   font-size: 15px;
   font-weight: 500;
 }
-.footer .footer-right img{
-    width: 13px;
-    object-fit: cover;
-    margin-right: 7px;
+.footer .footer-right img {
+  width: 13px;
+  object-fit: cover;
+  margin-right: 7px;
 }
-.footer .footer-right .box{
-    display: flex;
+.footer .footer-right .box {
+  display: flex;
 }
-.footer .social-icon{
-    text-align: center;
-    margin: 80px 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.15);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-    padding: 20px 0;
-    
+.footer .social-icon {
+  text-align: center;
+  margin: 80px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 20px 0;
 }
-.footer .social-icon img{
-    width: 40px;
+.footer .social-icon img {
+  width: 40px;
 }
-.footer .footer-content .footer-bottom{
+.footer .footer-content .footer-bottom {
   display: flex;
   justify-content: space-between;
 }
-.footer .footer-content .footer-bottom p{
-    color: var(--whiteColor);
+.footer .footer-content .footer-bottom p {
+  color: var(--whiteColor);
   font-family: var(--primaryFont);
   font-size: 15px;
   font-weight: 500;
