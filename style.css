@@ -23,6 +23,7 @@
 body {
   width: 100vw;
   height: 100vh;
+  color: var(--whiteColor);
 }
 
 /* HEADER AREA STYLE */
@@ -63,4 +64,124 @@ body {
   line-height: 72px;
   letter-spacing: 0%;
 }
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+main section {
+    margin-top: 90px;
+  margin-bottom: 90px;
+}
 /* HEADER STYLE END */
+
+/* OFFER AREA STYLE */
+.offer {
+  max-width: 610px;
+  margin: 0 auto;
+  text-align: center;
+}
+.offer img {
+  width: 610px;
+  height: 380px;
+}
+.offer h1 {
+  color: var(--redColor);
+  font-family: var(--primaryFont);
+  font-size: 66px;
+  font-weight: 700;
+  letter-spacing: 0%;
+}
+.offer .offer-content {
+  width: 310px;
+  margin: 20px auto;
+}
+.offer .offer-content h6 {
+  color: var(--redColor);
+  font-family: var(--primaryFont);
+  font-size: 18px;
+  font-weight: 500;
+}
+.offer .offer-content h2 {
+  color: var(--blackColor);
+  font-family: var(--primaryFont);
+  font-size: 36px;
+  font-weight: 700;
+}
+/* OFFER STYLE END */
+
+/* WELCOME PARTY STYLE */
+.welcome-party {
+  height: 456px;
+  background: linear-gradient(90deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
+    url(images/Vectorrr.png);
+  border-radius: 16px;
+  padding: 50px 82px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.welcome-party .content .title {
+  font-family: var(--seconderyFont);
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 66px;
+  letter-spacing: 11%;
+  width: 487px;
+}
+.welcome-party .content .description {
+  font-family: var(--primaryFont);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  opacity: 0.8;
+  width: 530px;
+  margin: 15px 0 20px;
+}
+.btn {
+  color: var(--whiteColor);
+  font-family: var(--primaryFont);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 10px 24px;
+  border-radius: 5px;
+}
+.welcome-party .image-container img {
+  width: 265px;
+  height: 350px;
+}
+/* WELCOME PARTY SECTION END */
+
+/* VANUE AND TIME SECTION STYLE */
+.vanue{
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    padding: 76px 290px 84px;
+}
+.vanue .content{
+    width: 420px;
+    color: #070211;
+    text-align: center;
+    font-family: var(--primaryFont);
+    font-weight: 600;
+}
+.vanue .content p{
+    color: var(--blackColor);
+}
+.vanue .content span{
+    color: var(--redColor);
+}
+.vanue .content .box{
+    margin: 10px 0;
+}
+.vanue .content .btn{
+    background-color: var(--redColor);
+    margin-top: 20px;
+}
+/* VANUE AND TIME STYLE END */
